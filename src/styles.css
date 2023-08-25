@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    font-family:'Bakbak One', cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-logo{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+
+.contenedor-logo h1{
+    background-color: #00000000;
+    text-align: center;
+}
+
+.contenedor-nosotros{
+    background-color: #00AFEF;
+    margin: 500px auto;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+
+.contenedor-logo img{
+    width: 100%;
+    height: 100%;
+}
