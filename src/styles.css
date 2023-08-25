@@ -7,15 +7,15 @@ body{
     padding: 0;
 }
 
-img{
+.contenedor-logo{
+    position: absolute;
     width: 100%;
     height: 100%;
 }
 
-.contenedor-logo{
-    position: absolute;
+.contenedor-logo img{
     width: 100%;
-    height: 300px;
+    height: 100%;
 }
 
 .contenedor-logo h1{
@@ -25,13 +25,68 @@ img{
 
 .contenedor-nosotros{
     background-color: #00AFEF;
-    margin: 500px auto;
+    margin: 240px auto;
     position: absolute;
     width: 100%;
     height: 300px;
 }
 
-.contenedor-logo img{
+.contenedor-nosotros h1{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contenedor-nosotros p{
+    color: #ffffff;
+    text-align: justify;
+    margin: 0 60px;
+}
+
+.contenedor-servicios{
+    background-color: #ffffff;
+    margin: 540px auto;
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 300px;
+}
+
+.contenedor-servicios h1{
+    color: #00AFEF;
+    text-align: center;
+}
+
+.contenedor-servicios p{
+    color: #00AFEF;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 60px;
+}
+
+.contenedor-sedes{
+    background-color: #00AFEF;
+    margin: 840px auto;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+
+.contenedor-sedes h1{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contenedor-testimonios{
+    background-color: #ffffff;
+    margin: 1140px auto;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+
+.contenedor-testimonios h1{
+    color: #00AFEF;
+    text-align: center;
+    margin-top: 30px;
 }
